@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hooked</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="logo">Hooked</div>
+
+      <nav class="main-navigation" aria-label="Hauptnavigation">
+        <a href="#" class="nav-link active">Entdecken</a>
+        <a href="#" class="nav-link">Spots</a>
+        <a href="#" class="nav-link"><span class="hook-icon">🪝</span> Hooks</a>
+        <a href="#" class="nav-link">Fangbuch &amp; Statistiken</a>
+        <a href="#" class="nav-link">Profil</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="search-button">Suche</button>
+        <button class="notification-button">Benachrichtigungen</button>
+        <button class="profile-button">Profil</button>
+      </div>
+    </header>
+
+    <main class="page-content">
+      <section class="hero-section">
+        <div class="hero-content">
+          <p class="hero-label">Dein Angeltag beginnt hier</p>
+          <h1>
+            Finde heute den
+            <span>perfekten Angelspot.</span>
+          </h1>
+          <p class="hero-description">
+            Hooked verbindet Wetter, Fischbestand, Community-Daten und deine
+            persönlichen Fangerfahrungen.
+          </p>
+
+          <div class="hero-actions">
+            <button class="primary-button">Spots entdecken</button>
+            <button class="secondary-button">Fang eintragen</button>
+          </div>
+        </div>
+
+        <div class="today-score-card">
+          <p class="card-label">Today Score</p>
+
+          <div class="score-value">
+            84
+            <span>/ 100</span>
+          </div>
+
+          <p>
+            Sehr gute Bedingungen für einen erfolgreichen Angeltag.
+          </p>
+
+          <div class="fish-score">
+            <div>
+              <span>Zander</span>
+              <strong>78 %</strong>
+            </div>
+            <div>
+              <span>Hecht</span>
+              <strong>71 %</strong>
+            </div>
+            <div>
+              <span>Barsch</span>
+              <strong>65 %</strong>
+            </div>
+          </div>
+
+          <div class="best-time">
+            <span>Beste Zeit</span>
+            <strong>19:10 – 21:00</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="dashboard-grid">
+        <article class="dashboard-card weather-card">
+          <h2>Wetter</h2>
+
+          <div class="weather-main">
+            <strong>18°C</strong>
+            <span>Teilweise bewölkt</span>
+          </div>
+
+          <div class="weather-details">
+            <div>
+              <span>Wind</span>
+              <strong>12 km/h</strong>
+            </div>
+            <div>
+              <span>Luftdruck</span>
+              <strong>1016 hPa</strong>
+            </div>
+            <div>
+              <span>Wasser</span>
+              <strong>16°C</strong>
+            </div>
+          </div>
+        </article>
+
+        <article class="dashboard-card spots-card">
+          <div class="card-header">
+            <h2>Empfohlene Spots</h2>
+            <button>Alle anzeigen</button>
+          </div>
+
+          <div class="spot-list">
+            <div class="spot-item">
+              <div>
+                <h3>Silbersee – Nordufer</h3>
+                <p>Zander · Hecht · Barsch</p>
+              </div>
+              <strong>89 %</strong>
+            </div>
+
+            <div class="spot-item">
+              <div>
+                <h3>Krummensee – Schilfgürtel</h3>
+                <p>Hecht · Barsch</p>
+              </div>
+              <strong>81 %</strong>
+            </div>
+
+            <div class="spot-item">
+              <div>
+                <h3>Alte Kiesgrube</h3>
+                <p>Zander · Karpfen</p>
+              </div>
+              <strong>76 %</strong>
+            </div>
+          </div>
+        </article>
+
+        <article class="dashboard-card stats-card">
+          <h2>Fangbuch &amp; Statistiken</h2>
+
+          <div class="stat-highlight">
+            <span>Fänge dieses Jahr</span>
+            <strong>37</strong>
+          </div>
+
+          <div class="stat-row">
+            <div>
+              <span>Größter Fang</span>
+              <strong>102 cm Hecht</strong>
+            </div>
+
+            <div>
+              <span>Häufigste Art</span>
+              <strong>Barsch</strong>
+            </div>
+          </div>
+
+          <button class="card-button">Fangbuch öffnen</button>
+        </article>
+      </section>
+
+      <section class="community-section">
+        <div class="section-header">
+          <div>
+            <p class="section-label">Community</p>
+            <h2>Neue Fänge</h2>
+          </div>
+
+          <button>Feed öffnen</button>
+        </div>
+
+        <div class="feed-grid">
+          <article class="post-card">
+            <div class="post-header">
+              <div class="user-avatar">LF</div>
+              <div>
+                <strong>lukas_fish</strong>
+                <span>vor 2 Stunden</span>
+              </div>
+            </div>
+
+            <div class="post-image-placeholder">Fischfoto</div>
+
+            <div class="post-actions">
+              <button>♥ 243</button>
+              <button>Kommentare 28</button>
+            </div>
+
+            <p>
+              Traumzander zum Sonnenuntergang. Heute hat einfach alles gepasst.
+            </p>
+
+            <div class="hashtags">
+              <span>#zander</span>
+              <span>#sunset</span>
+              <span>#gummifisch</span>
+            </div>
+          </article>
+
+          <article class="post-card">
+            <div class="post-header">
+              <div class="user-avatar">CF</div>
+              <div>
+                <strong>caro.catches</strong>
+                <span>vor 5 Stunden</span>
+              </div>
+            </div>
+
+            <div class="post-image-placeholder">Fischfoto</div>
+
+            <div class="post-actions">
+              <button>♥ 187</button>
+              <button>Kommentare 14</button>
+            </div>
+
+            <p>Neues persönliches Hecht-Rekord.</p>
+
+            <div class="hashtags">
+              <span>#hecht</span>
+              <span>#pike</span>
+              <span>#pb</span>
+            </div>
+          </article>
+
+          <article class="post-card hooks-card">
+            <div class="post-header">
+              <div>
+                <strong>🪝 Hooks</strong>
+                <span>Trending</span>
+              </div>
+            </div>
+
+            <div class="hooks-placeholder">
+              <span class="play-symbol">▶</span>
+              <p>Die besten Angelmomente</p>
+            </div>
+
+            <button class="card-button">Hooks ansehen</button>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <aside class="ai-assistant" aria-live="polite">
+      <div class="ai-header">
+        <div>
+          <span class="ai-status">●</span>
+          <strong>Hooked AI</strong>
+        </div>
+
+        <button class="ai-close-button" aria-label="AI schließen">×</button>
+      </div>
+
+      <div class="ai-content">
+        <p class="ai-message">Hey! Was möchtest du heute angeln?</p>
+
+        <div class="ai-suggestions">
+          <button>Köder empfehlen</button>
+          <button>Spot analysieren</button>
+          <button>Fang auswerten</button>
+        </div>
+      </div>
+
+      <div class="ai-input-area">
+        <input type="text" placeholder="Frag Hooked AI..." aria-label="Hooked AI Nachricht" />
+        <button type="button">Senden</button>
+      </div>
+    </aside>
+
+    <button class="ai-floating-button" aria-label="Hooked AI öffnen">AI</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
